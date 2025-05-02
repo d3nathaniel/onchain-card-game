@@ -1,6 +1,3 @@
-好的，这里是你之前整理的 `README` 的**繁體中文版本**：
-
----
 
 # On-chain Card Game
 
