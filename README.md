@@ -98,9 +98,17 @@ npx hardhat test
 
 ### **Game Commands**
 
-* **`draw`**: Draw a card.
-* **`view`**: View the player's card collection.
-* **`exit`**: Exit the game.
+- `draw`: Draw a new card (maximum 5 cards)
+- `view`: View your card collection
+- `accounts`: List all available accounts
+- `switch <index>`: Switch to a different account (e.g., `switch 1` to switch to account #1)
+- `exit`: Exit the game
+
+## Multiple Players
+
+The game supports multiple players through different Ethereum accounts. Each account has its own card collection. Use the `accounts` command to see available accounts and `switch <index>` to change between them.
+
+## Reset Your Cards
 
 ---
 
