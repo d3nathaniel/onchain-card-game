@@ -113,3 +113,21 @@ npx hardhat test
 ### **Conclusion**
 
 By following these steps, you can deploy and run this card drawing game based on Solidity locally and interact with the smart contract. You can also expand and optimize the game’s features as needed.
+
+---
+
+**Q: How are ID and Power in this game different from traditional playing cards?**  
+**A:**
+
+- **ID**: It's a unique identifier for each card, incremented from 1 in the order cards are created. Unlike traditional cards, it's not related to suit or rank.
+- **Power**: A randomly generated value between 0 and 99 that represents a card’s strength. In standard cards, values like A=1 (or 14), K=13 are fixed and non-random.
+
+**Why the difference?**
+
+- Traditional playing cards have a fixed deck of 52 cards.
+- This blockchain game allows unlimited card generation with randomized Power values.
+
+**Want to make it more like traditional cards?**
+
+You can limit Power to 1-13 and add a “suit” field (e.g., 0-3 representing spades, hearts, clubs, diamonds).
+
