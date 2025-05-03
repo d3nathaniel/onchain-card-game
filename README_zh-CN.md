@@ -1,5 +1,7 @@
 ### **Card Game - README**
 
+[English](README.md) | [简体中文](README_zh-CN.md) | [日本語](README_ja.md) | [繁體中文](README_zh-Hant.md)
+
 #### **概述**
 
 这是一款基于 Solidity 和 Hardhat 的简单卡牌抽取游戏。玩家通过支付 `0.01 ETH` 的费用来抽取卡牌，每次抽卡时，玩家会获得一张卡牌，并将其添加到玩家的卡组中。玩家可以随时查看自己的卡组，查看自己已抽到的所有卡牌。

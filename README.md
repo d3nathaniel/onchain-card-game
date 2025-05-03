@@ -1,5 +1,7 @@
 ### **Card Game - README**
 
+[English](README.md) | [简体中文](README_zh-CN.md) | [日本語](README_ja.md) | [繁體中文](README_zh-Hant.md)
+
 #### **Overview**
 
 This is a simple card drawing game based on Solidity and Hardhat. Players pay `0.01 ETH` to draw a card. Each time a player draws, they receive one card, which will be added to their collection. Players can view their collection at any time to check which cards they have drawn.
