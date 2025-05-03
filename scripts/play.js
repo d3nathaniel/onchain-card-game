@@ -22,9 +22,18 @@ async function main() {
   rl.on("line", async (line) => {
     switch (line.trim()) {
       case "draw":
-        const tx = await game.drawCard();
-        await tx.wait();
-        console.log("You drew a card!");
+        try {
+          const cards = await game.getCards(player.address);
+          if (cards.length >= 5) {
+            console.log("You already have 5 cards (maximum). Cannot draw more cards.");
+          } else {
+            const tx = await game.drawCard();
+            await tx.wait();
+            console.log("You drew a card!");
+          }
+        } catch (error) {
+          console.error("Error drawing card:", error.message);
+        }
         break;
       case "view":
         try {
