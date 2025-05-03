@@ -20,8 +20,8 @@ This is a simple card drawing game based on Solidity and Hardhat. Players pay `0
 #### **1. Clone the Project**
 
 ```bash
-git clone <repository-url>
-cd <project-directory>
+git clone https://github.com/d3nathaniel/onchain-card-game.git
+cd onchain-card-game
 ```
 
 #### **2. Install Dependencies**
@@ -108,7 +108,6 @@ npx hardhat test
 
 The game supports multiple players through different Ethereum accounts. Each account has its own card collection. Use the `accounts` command to see available accounts and `switch <index>` to change between them.
 
-## Reset Your Cards
 
 ---
 
