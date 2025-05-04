@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <title>Onchain Gacha Game</title>
+  <style>
+    html,
+    body {
+      margin: 0;
+      padding: 0;
+      background: #000;
+      color: #fff;
+      font-family: 'Orbitron', sans-serif;
+      height: 100vh;
+      width: 100vw;
+      overflow: hidden;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-weight: 500;
+    }
+
+    .iphone-frame {
+      width: 860px;
+      height: 1864px;
+      background: #121212;
+      border-radius: 80px;
+      overflow: hidden;
+      position: relative;
+      display: flex;
+      flex-direction: column;
+      box-shadow: 0 0 30px #000;
+    }
+
+    .main-content {
+      flex: 1;
+      overflow-y: auto;
+      padding: 32px 24px 0;
+      /* 去除底部 padding */
+      display: flex;
+      flex-wrap: wrap;
+      gap: 24px;
+      justify-content: center;
+    }
+
+    .card {
+      width: 95%;
+      height: 600px;
+      border-radius: 24px;
+      box-shadow: 0 8px 20px rgba(0, 0, 0, 0.5);
+      padding: 16px;
+      box-sizing: border-box;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      background-size: cover;
+      background-position: center;
+      border: 4px solid #fff3;
+    }
+
+
+    .card .info {
+      background: rgba(0, 0, 0, 0.5);
+      padding: 12px;
+      border-radius: 16px;
+      font-size: 30px;
+      font-weight: 700;
+      color: #00ffff;
+      text-shadow: 2px 2px 4px #000;
+    }
+
+    .bottom-nav {
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      height: 120px;
+      background-color: #1e1e1e;
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      border-top: 2px solid #333;
+      z-index: 10;
+    }
+
+    .nav-item {
+      font-size: 32px;
+      font-weight: 700;
+      color: #aaa;
+      text-shadow: 1px 1px 2px #000;
+    }
+
+    .nav-item.active {
+      color: #ffd700;
+    }
+
+    .nav-item:hover {
+      color: #fff;
+    }
+  </style>
+
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500;700&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+
+  <div class="iphone-frame">
+    <div class="main-content">
+      <div class="card" style="background-image: url('https://picsum.photos/400/600?1');">
+        <div class="info">
+          <p><strong>ID:</strong> #001</p>
+          <p><strong>Power:</strong> 120</p>
+        </div>
+      </div>
+      <div class="card" style="background-image: url('https://picsum.photos/400/600?2');">
+        <div class="info">
+          <p><strong>ID:</strong> #002</p>
+          <p><strong>Power:</strong> 98</p>
+        </div>
+      </div>
+      <div class="card" style="background-image: url('https://picsum.photos/400/600?3');">
+        <div class="info">
+          <p><strong>ID:</strong> #003</p>
+          <p><strong>Power:</strong> 143</p>
+        </div>
+      </div>
+      <div class="card" style="background-image: url('https://picsum.photos/400/600?4');">
+        <div class="info">
+          <p><strong>ID:</strong> #003</p>
+          <p><strong>Power:</strong> 143</p>
+        </div>
+      </div>
+      <div class="card" style="background-image: url('https://picsum.photos/400/600?5');">
+        <div class="info">
+          <p><strong>ID:</strong> #003</p>
+          <p><strong>Power:</strong> 143</p>
+        </div>
+      </div>
+      <div class="card" style="background-image: url('https://picsum.photos/400/600?6');">
+        <div class="info">
+          <p><strong>ID:</strong> #003</p>
+          <p><strong>Power:</strong> 143</p>
+        </div>
+      </div>
+      <div class="card" style="background-image: url('https://picsum.photos/400/600?7');">
+        <div class="info">
+          <p><strong>ID:</strong> #003</p>
+          <p><strong>Power:</strong> 143</p>
+        </div>
+      </div>
+      <div class="card" style="background-image: url('https://picsum.photos/400/600?8');">
+        <div class="info">
+          <p><strong>ID:</strong> #003</p>
+          <p><strong>Power:</strong> 143</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="bottom-nav">
+      <div class="nav-item active">Home</div>
+      <div class="nav-item">Draw</div>
+      <div class="nav-item">Bag</div>
+    </div>
+  </div>
+
+</body>
+
+</html>
