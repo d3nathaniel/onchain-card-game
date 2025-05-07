@@ -2,6 +2,16 @@
 
 [English](README.md) | [简体中文](README_zh-CN.md) | [日本語](README_ja.md) | [繁體中文](README_zh-Hant.md)
 
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
+![Last Commit](https://img.shields.io/github/last-commit/d3nathaniel/onchain-card-game)
+![Open Issues](https://img.shields.io/github/issues/d3nathaniel/onchain-card-game)
+![Pull Requests](https://img.shields.io/github/issues-pr/d3nathaniel/onchain-card-game)
+![License](https://img.shields.io/github/license/d3nathaniel/onchain-card-game)
+![Solidity](https://img.shields.io/badge/built_with-Solidity-blue?logo=ethereum)
+![Platform](https://img.shields.io/badge/platform-Hardhat-blue)
+![GitHub Stars](https://img.shields.io/github/stars/d3nathaniel/onchain-card-game?style=social)
+
+
 #### **Overview**
 
 This is a simple card drawing game based on Solidity and Hardhat. Players pay `0.01 ETH` to draw a card. Each time a player draws, they receive one card, which will be added to their collection. Players can view their collection at any time to check which cards they have drawn.
